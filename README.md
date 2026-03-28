@@ -1,4 +1,4 @@
-# 🌾 AgriIntel: Autonomous Hybrid Agriculture Agent
+# AgriIntel: Autonomous Hybrid Agriculture Agent
 ### Multi-Tool Reasoning | RAG | Text-to-SQL | LLM Orchestration
 
 Project Overview
