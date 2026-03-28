@@ -13,14 +13,14 @@ Dynamic Text-to-SQL: Converts natural language into executable SQLite queries (a
 Vector Search Optimization: Uses all-MiniLM-L6-v2 embeddings and ChromaDB to perform semantic search over thousands of agricultural topics.
 
 Synthetic Data Augmentation: Enriched the base HuggingFace dataset with numeric features (yield, water_usage) to demonstrate full analytical capabilities.
-## 🛠️ Tech Stack
+## Tech Stack
 - **LLM**: GPT-4o-mini 
 - **Orchestration**: LangChain 
 - **Vector Database**: ChromaDB 
 - **Structured Database**: SQLite
 - **Interface**: Gradio
 
-## 📁 Project Architecture
+## Project Architecture
 ```text
 AgriAI-Project/
 ├── app.py            # Master file (Agent, Tools, and UI)
@@ -29,5 +29,5 @@ AgriAI-Project/
 ├── requirements.txt  # Project dependencies
 └── verify_data.py    # Direct SQL verification script
 ```
-##Dataset Attribution
+## Dataset Attribution
 This project utilizes the Mahesh2841/Agriculture dataset for both structured analysis and knowledge retrieval. The system is designed to handle the unique challenge where the input field contains diverse agricultural topics and questions.
